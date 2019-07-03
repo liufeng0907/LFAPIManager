@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037EA72122CCEEBB0080B31C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA72022CCEEBB0080B31C /* AppDelegate.m */; };
+		037EA72422CCEEBB0080B31C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA72322CCEEBB0080B31C /* ViewController.m */; };
+		037EA72722CCEEBB0080B31C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037EA72522CCEEBB0080B31C /* Main.storyboard */; };
+		037EA72922CCEEBC0080B31C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037EA72822CCEEBC0080B31C /* Assets.xcassets */; };
+		037EA72C22CCEEBC0080B31C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037EA72A22CCEEBC0080B31C /* LaunchScreen.storyboard */; };
+		037EA72F22CCEEBC0080B31C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA72E22CCEEBC0080B31C /* main.m */; };
+		037EA73922CCEEBC0080B31C /* LFAPIManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA73822CCEEBC0080B31C /* LFAPIManagerTests.m */; };
+		037EA74422CCEEBC0080B31C /* LFAPIManagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA74322CCEEBC0080B31C /* LFAPIManagerUITests.m */; };
+		037EA75422CCEF810080B31C /* LFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA75322CCEF810080B31C /* LFBaseModel.m */; };
+		037EA75922CCF27C0080B31C /* LFAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA75822CCF27C0080B31C /* LFAPIManager.m */; };
+		037EA75C22CD06990080B31C /* simpleMovieModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 037EA75B22CD06990080B31C /* simpleMovieModel.m */; };
+		2308F3C24E506B0EF8CAEE72 /* libPods-LFAPIManagerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3B2B88EFE217CE796F9592 /* libPods-LFAPIManagerTests.a */; };
+		761D33F5A5FBB5AA85A1D535 /* libPods-LFAPIManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12B1A5390900B35ECB00A440 /* libPods-LFAPIManager.a */; };
+		88535716C1AA35D9045D8521 /* libPods-LFAPIManagerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6569FD89597EF59B44429FD8 /* libPods-LFAPIManagerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037EA73522CCEEBC0080B31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037EA71422CCEEBB0080B31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037EA71B22CCEEBB0080B31C;
+			remoteInfo = LFAPIManager;
+		};
+		037EA74022CCEEBC0080B31C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037EA71422CCEEBB0080B31C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037EA71B22CCEEBB0080B31C;
+			remoteInfo = LFAPIManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037EA71C22CCEEBB0080B31C /* LFAPIManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFAPIManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EA71F22CCEEBB0080B31C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		037EA72022CCEEBB0080B31C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		037EA72222CCEEBB0080B31C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		037EA72322CCEEBB0080B31C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		037EA72622CCEEBB0080B31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037EA72822CCEEBC0080B31C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037EA72B22CCEEBC0080B31C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037EA72D22CCEEBC0080B31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037EA72E22CCEEBC0080B31C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037EA73422CCEEBC0080B31C /* LFAPIManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFAPIManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EA73822CCEEBC0080B31C /* LFAPIManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAPIManagerTests.m; sourceTree = "<group>"; };
+		037EA73A22CCEEBC0080B31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037EA73F22CCEEBC0080B31C /* LFAPIManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFAPIManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		037EA74322CCEEBC0080B31C /* LFAPIManagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAPIManagerUITests.m; sourceTree = "<group>"; };
+		037EA74522CCEEBC0080B31C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037EA75222CCEF810080B31C /* LFBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFBaseModel.h; sourceTree = "<group>"; };
+		037EA75322CCEF810080B31C /* LFBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFBaseModel.m; sourceTree = "<group>"; };
+		037EA75622CCEFBE0080B31C /* LFModels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFModels.h; sourceTree = "<group>"; };
+		037EA75722CCF27C0080B31C /* LFAPIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LFAPIManager.h; sourceTree = "<group>"; };
+		037EA75822CCF27C0080B31C /* LFAPIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFAPIManager.m; sourceTree = "<group>"; };
+		037EA75A22CD06990080B31C /* simpleMovieModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = simpleMovieModel.h; sourceTree = "<group>"; };
+		037EA75B22CD06990080B31C /* simpleMovieModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = simpleMovieModel.m; sourceTree = "<group>"; };
+		12B1A5390900B35ECB00A440 /* libPods-LFAPIManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAPIManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A3B2B88EFE217CE796F9592 /* libPods-LFAPIManagerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAPIManagerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		256FA12A425C09881AF3F16B /* Pods-LFAPIManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManager/Pods-LFAPIManager.release.xcconfig"; sourceTree = "<group>"; };
+		5AD3EB3D9ACB1409296D5487 /* Pods-LFAPIManagerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManagerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManagerUITests/Pods-LFAPIManagerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6569FD89597EF59B44429FD8 /* libPods-LFAPIManagerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LFAPIManagerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9732578F74D8AB1F1510F794 /* Pods-LFAPIManagerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManagerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManagerUITests/Pods-LFAPIManagerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A7F745E518B956BD4AE228FD /* Pods-LFAPIManagerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManagerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManagerTests/Pods-LFAPIManagerTests.release.xcconfig"; sourceTree = "<group>"; };
+		B3383E324C8BC1C8C5AB2825 /* Pods-LFAPIManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManager/Pods-LFAPIManager.debug.xcconfig"; sourceTree = "<group>"; };
+		D3926A77041CFF8CFBB45B7D /* Pods-LFAPIManagerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LFAPIManagerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LFAPIManagerTests/Pods-LFAPIManagerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037EA71922CCEEBB0080B31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				761D33F5A5FBB5AA85A1D535 /* libPods-LFAPIManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73122CCEEBC0080B31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2308F3C24E506B0EF8CAEE72 /* libPods-LFAPIManagerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73C22CCEEBC0080B31C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88535716C1AA35D9045D8521 /* libPods-LFAPIManagerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037EA71322CCEEBB0080B31C = {
+			isa = PBXGroup;
+			children = (
+				037EA71E22CCEEBB0080B31C /* LFAPIManager */,
+				037EA73722CCEEBC0080B31C /* LFAPIManagerTests */,
+				037EA74222CCEEBC0080B31C /* LFAPIManagerUITests */,
+				037EA71D22CCEEBB0080B31C /* Products */,
+				6B532C496AB15FFB86E40433 /* Pods */,
+				E5616C6DED08EEA207D15CD1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		037EA71D22CCEEBB0080B31C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037EA71C22CCEEBB0080B31C /* LFAPIManager.app */,
+				037EA73422CCEEBC0080B31C /* LFAPIManagerTests.xctest */,
+				037EA73F22CCEEBC0080B31C /* LFAPIManagerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037EA71E22CCEEBB0080B31C /* LFAPIManager */ = {
+			isa = PBXGroup;
+			children = (
+				037EA75122CCEF630080B31C /* APIManager */,
+				037EA71F22CCEEBB0080B31C /* AppDelegate.h */,
+				037EA72022CCEEBB0080B31C /* AppDelegate.m */,
+				037EA72222CCEEBB0080B31C /* ViewController.h */,
+				037EA72322CCEEBB0080B31C /* ViewController.m */,
+				037EA72522CCEEBB0080B31C /* Main.storyboard */,
+				037EA75A22CD06990080B31C /* simpleMovieModel.h */,
+				037EA75B22CD06990080B31C /* simpleMovieModel.m */,
+				037EA72822CCEEBC0080B31C /* Assets.xcassets */,
+				037EA72A22CCEEBC0080B31C /* LaunchScreen.storyboard */,
+				037EA72D22CCEEBC0080B31C /* Info.plist */,
+				037EA72E22CCEEBC0080B31C /* main.m */,
+			);
+			path = LFAPIManager;
+			sourceTree = "<group>";
+		};
+		037EA73722CCEEBC0080B31C /* LFAPIManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				037EA73822CCEEBC0080B31C /* LFAPIManagerTests.m */,
+				037EA73A22CCEEBC0080B31C /* Info.plist */,
+			);
+			path = LFAPIManagerTests;
+			sourceTree = "<group>";
+		};
+		037EA74222CCEEBC0080B31C /* LFAPIManagerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				037EA74322CCEEBC0080B31C /* LFAPIManagerUITests.m */,
+				037EA74522CCEEBC0080B31C /* Info.plist */,
+			);
+			path = LFAPIManagerUITests;
+			sourceTree = "<group>";
+		};
+		037EA75122CCEF630080B31C /* APIManager */ = {
+			isa = PBXGroup;
+			children = (
+				037EA75622CCEFBE0080B31C /* LFModels.h */,
+				037EA75222CCEF810080B31C /* LFBaseModel.h */,
+				037EA75322CCEF810080B31C /* LFBaseModel.m */,
+				037EA75722CCF27C0080B31C /* LFAPIManager.h */,
+				037EA75822CCF27C0080B31C /* LFAPIManager.m */,
+			);
+			path = APIManager;
+			sourceTree = "<group>";
+		};
+		6B532C496AB15FFB86E40433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3383E324C8BC1C8C5AB2825 /* Pods-LFAPIManager.debug.xcconfig */,
+				256FA12A425C09881AF3F16B /* Pods-LFAPIManager.release.xcconfig */,
+				D3926A77041CFF8CFBB45B7D /* Pods-LFAPIManagerTests.debug.xcconfig */,
+				A7F745E518B956BD4AE228FD /* Pods-LFAPIManagerTests.release.xcconfig */,
+				5AD3EB3D9ACB1409296D5487 /* Pods-LFAPIManagerUITests.debug.xcconfig */,
+				9732578F74D8AB1F1510F794 /* Pods-LFAPIManagerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E5616C6DED08EEA207D15CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12B1A5390900B35ECB00A440 /* libPods-LFAPIManager.a */,
+				1A3B2B88EFE217CE796F9592 /* libPods-LFAPIManagerTests.a */,
+				6569FD89597EF59B44429FD8 /* libPods-LFAPIManagerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037EA71B22CCEEBB0080B31C /* LFAPIManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037EA74822CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManager" */;
+			buildPhases = (
+				37952AB90518E6423E57C3BE /* [CP] Check Pods Manifest.lock */,
+				037EA71822CCEEBB0080B31C /* Sources */,
+				037EA71922CCEEBB0080B31C /* Frameworks */,
+				037EA71A22CCEEBB0080B31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LFAPIManager;
+			productName = LFAPIManager;
+			productReference = 037EA71C22CCEEBB0080B31C /* LFAPIManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037EA73322CCEEBC0080B31C /* LFAPIManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037EA74B22CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManagerTests" */;
+			buildPhases = (
+				1164C053C3804FC5AF5501B6 /* [CP] Check Pods Manifest.lock */,
+				037EA73022CCEEBC0080B31C /* Sources */,
+				037EA73122CCEEBC0080B31C /* Frameworks */,
+				037EA73222CCEEBC0080B31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037EA73622CCEEBC0080B31C /* PBXTargetDependency */,
+			);
+			name = LFAPIManagerTests;
+			productName = LFAPIManagerTests;
+			productReference = 037EA73422CCEEBC0080B31C /* LFAPIManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		037EA73E22CCEEBC0080B31C /* LFAPIManagerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037EA74E22CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManagerUITests" */;
+			buildPhases = (
+				33A4240C2E0E76709EB02CFF /* [CP] Check Pods Manifest.lock */,
+				037EA73B22CCEEBC0080B31C /* Sources */,
+				037EA73C22CCEEBC0080B31C /* Frameworks */,
+				037EA73D22CCEEBC0080B31C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037EA74122CCEEBC0080B31C /* PBXTargetDependency */,
+			);
+			name = LFAPIManagerUITests;
+			productName = LFAPIManagerUITests;
+			productReference = 037EA73F22CCEEBC0080B31C /* LFAPIManagerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037EA71422CCEEBB0080B31C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "刘峰";
+				TargetAttributes = {
+					037EA71B22CCEEBB0080B31C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					037EA73322CCEEBC0080B31C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 037EA71B22CCEEBB0080B31C;
+					};
+					037EA73E22CCEEBC0080B31C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 037EA71B22CCEEBB0080B31C;
+					};
+				};
+			};
+			buildConfigurationList = 037EA71722CCEEBB0080B31C /* Build configuration list for PBXProject "LFAPIManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037EA71322CCEEBB0080B31C;
+			productRefGroup = 037EA71D22CCEEBB0080B31C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037EA71B22CCEEBB0080B31C /* LFAPIManager */,
+				037EA73322CCEEBC0080B31C /* LFAPIManagerTests */,
+				037EA73E22CCEEBC0080B31C /* LFAPIManagerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037EA71A22CCEEBB0080B31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037EA72C22CCEEBC0080B31C /* LaunchScreen.storyboard in Resources */,
+				037EA72922CCEEBC0080B31C /* Assets.xcassets in Resources */,
+				037EA72722CCEEBB0080B31C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73222CCEEBC0080B31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73D22CCEEBC0080B31C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1164C053C3804FC5AF5501B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFAPIManagerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33A4240C2E0E76709EB02CFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFAPIManagerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37952AB90518E6423E57C3BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LFAPIManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037EA71822CCEEBB0080B31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037EA72422CCEEBB0080B31C /* ViewController.m in Sources */,
+				037EA72F22CCEEBC0080B31C /* main.m in Sources */,
+				037EA75C22CD06990080B31C /* simpleMovieModel.m in Sources */,
+				037EA75422CCEF810080B31C /* LFBaseModel.m in Sources */,
+				037EA75922CCF27C0080B31C /* LFAPIManager.m in Sources */,
+				037EA72122CCEEBB0080B31C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73022CCEEBC0080B31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037EA73922CCEEBC0080B31C /* LFAPIManagerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037EA73B22CCEEBC0080B31C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037EA74422CCEEBC0080B31C /* LFAPIManagerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037EA73622CCEEBC0080B31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037EA71B22CCEEBB0080B31C /* LFAPIManager */;
+			targetProxy = 037EA73522CCEEBC0080B31C /* PBXContainerItemProxy */;
+		};
+		037EA74122CCEEBC0080B31C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037EA71B22CCEEBB0080B31C /* LFAPIManager */;
+			targetProxy = 037EA74022CCEEBC0080B31C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		037EA72522CCEEBB0080B31C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037EA72622CCEEBB0080B31C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		037EA72A22CCEEBC0080B31C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037EA72B22CCEEBC0080B31C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037EA74622CCEEBC0080B31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		037EA74722CCEEBC0080B31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037EA74922CCEEBC0080B31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3383E324C8BC1C8C5AB2825 /* Pods-LFAPIManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037EA74A22CCEEBC0080B31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 256FA12A425C09881AF3F16B /* Pods-LFAPIManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		037EA74C22CCEEBC0080B31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3926A77041CFF8CFBB45B7D /* Pods-LFAPIManagerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFAPIManager.app/LFAPIManager";
+			};
+			name = Debug;
+		};
+		037EA74D22CCEEBC0080B31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7F745E518B956BD4AE228FD /* Pods-LFAPIManagerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManagerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LFAPIManager.app/LFAPIManager";
+			};
+			name = Release;
+		};
+		037EA74F22CCEEBC0080B31C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AD3EB3D9ACB1409296D5487 /* Pods-LFAPIManagerUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFAPIManager;
+			};
+			name = Debug;
+		};
+		037EA75022CCEEBC0080B31C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9732578F74D8AB1F1510F794 /* Pods-LFAPIManagerUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4W36496YX3;
+				INFOPLIST_FILE = LFAPIManagerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.liufeng.test.LFAPIManagerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LFAPIManager;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037EA71722CCEEBB0080B31C /* Build configuration list for PBXProject "LFAPIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037EA74622CCEEBC0080B31C /* Debug */,
+				037EA74722CCEEBC0080B31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037EA74822CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037EA74922CCEEBC0080B31C /* Debug */,
+				037EA74A22CCEEBC0080B31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037EA74B22CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037EA74C22CCEEBC0080B31C /* Debug */,
+				037EA74D22CCEEBC0080B31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037EA74E22CCEEBC0080B31C /* Build configuration list for PBXNativeTarget "LFAPIManagerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037EA74F22CCEEBC0080B31C /* Debug */,
+				037EA75022CCEEBC0080B31C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037EA71422CCEEBB0080B31C /* Project object */;
+}
